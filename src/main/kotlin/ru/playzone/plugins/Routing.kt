@@ -12,6 +12,7 @@ fun Application.configureRouting() {
     routing {
         get("/") {
 //            call.respondText("Hello, World")
+
             call.respond(
                 listOf(
                     TestJSON("hello"),
